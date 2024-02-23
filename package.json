@@ -1,0 +1,51 @@
+{
+  "name": "unocss-preset-chroma",
+  "version": "0.4.2",
+  "description": "chroma-js gradient for UnoCSS",
+  "engines": {
+    "node": ">=14.18"
+  },
+  "type": "module",
+  "types": "./dist/index.d.ts",
+  "exports": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "build-demo": "vite build --mode demo",
+    "test": "vitest",
+    "test:update": "vitest -u",
+    "release": "npx bumpp package.json --commit \"release: v\" --push --tag"
+  },
+  "dependencies": {
+    "@unocss/preset-mini": "^0.50.4",
+    "chroma-js": "2.4.2"
+  },
+  "devDependencies": {
+    "@types/estree": "^1.0.0",
+    "@types/node": "^18.14.6",
+    "marked": "^4.2.12",
+    "typescript": "^4.9.5",
+    "unocss": "^0.50.4",
+    "vitest": "^0.29.2",
+    "vite": "^4.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chu121su12/unocss-preset-chroma.git"
+  },
+  "keywords": [
+    "unocss",
+    "chroma-js",
+    "gradient",
+    "unocss-preset-chroma"
+  ],
+  "author": "Saya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chu121su12/unocss-preset-chroma/issues"
+  },
+  "homepage": "https://github.com/chu121su12/unocss-preset-chroma"
+}
