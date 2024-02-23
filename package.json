@@ -1,6 +1,6 @@
 {
-  "name": "unocss-preset-chroma",
-  "version": "0.4.2",
+  "name": "unocss-preset-chroma-forked",
+  "version": "0.0.1",
   "description": "chroma-js gradient for UnoCSS",
   "engines": {
     "node": ">=14.18"
@@ -34,7 +34,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chu121su12/unocss-preset-chroma.git"
+    "url": "git+https://github.com/JacobZyy/unocss-preset-chroma-forked"
   },
   "keywords": [
     "unocss",
@@ -45,7 +45,7 @@
   "author": "Saya",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chu121su12/unocss-preset-chroma/issues"
+    "url": "https://github.com/JacobZyy/unocss-preset-chroma-forked/issues"
   },
-  "homepage": "https://github.com/chu121su12/unocss-preset-chroma"
+  "homepage": "https://github.com/JacobZyy/unocss-preset-chroma-forked"
 }

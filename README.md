@@ -1,15 +1,20 @@
-# unocss-preset-chroma
+# unocss-preset-chroma-forked
 
 <p>
-  <a href="https://npmjs.com/package/unocss-preset-chroma" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/npm/v/unocss-preset-chroma" alt="npm version">
-  </a>
   <a href="https://nodejs.org/en/about/releases/" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/node/v/unocss-preset-chroma" alt="node version">
   </a>
 </p>
 
-> chroma-js gradient for UnoCSS
+## origin repositry
+[unocss-preset-chroma](https://github.com/chu121su12/unocss-preset-chroma)
+
+This preset in on the recommand list of unocss community presets, but the package on npm is is no longer available because the dist folder lost source files.
+I found that the developer raised an issue with the original author, but received no response.
+So I create this repositry to fix these problems
+
+> chroma-js gradient for UnoCSS.
+
 
 ## Installation
 
