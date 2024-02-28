@@ -1,8 +1,8 @@
-import { defineConfig } from 'vite'
-import { presetUno } from 'unocss'
-import { presetChroma } from './src'
-import { presetTypography } from 'unocss'
-import unocss from 'unocss/vite'
+import { defineConfig } from 'vite';
+import { presetUno } from 'unocss';
+import { presetChroma } from './src';
+import { presetTypography } from 'unocss';
+import unocss from 'unocss/vite';
 
 export default defineConfig(({ mode }) => ({
   plugins: [
@@ -38,7 +38,7 @@ export default defineConfig(({ mode }) => ({
             fileName: () => 'index.js',
           },
     rollupOptions: {
-      external: ['unocss'],
+      external: ['unocss', 'chroma-js'],
     },
   },
-}))
+}));

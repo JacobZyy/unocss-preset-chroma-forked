@@ -11,9 +11,8 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noImplicitAny": false,
-    "outDir": "./temp",
     "declaration": true,
-    "declarationDir": "./temp",
+    "skipLibCheck": true,
     "emitDeclarationOnly": true,
     "paths": {
       "unocss-preset-chroma": ["./src"]

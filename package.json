@@ -1,7 +1,7 @@
 {
   "name": "unocss-preset-chroma-forked",
   "version": "0.0.1",
-  "description": "chroma-js gradient for UnoCSS",
+  "description": "chroma-js gradient for UnoCSS, a replacement of unocss-perset-chroma which is unavaliable",
   "engines": {
     "node": ">=14.18"
   },
@@ -19,18 +19,18 @@
     "test:update": "vitest -u",
     "release": "npx bumpp package.json --commit \"release: v\" --push --tag"
   },
-  "dependencies": {
-    "@unocss/preset-mini": "^0.50.4",
+  "peerDependencies": {
     "chroma-js": "2.4.2"
   },
   "devDependencies": {
+    "unocss": "^0.58.5",
+    "chroma-js": "2.4.2",
     "@types/estree": "^1.0.0",
     "@types/node": "^18.14.6",
     "marked": "^4.2.12",
-    "typescript": "^4.9.5",
-    "unocss": "^0.50.4",
-    "vitest": "^0.29.2",
-    "vite": "^4.1.4"
+    "typescript": "^5.3.3",
+    "vite": "^4.1.4",
+    "vitest": "^0.29.2"
   },
   "repository": {
     "type": "git",
@@ -42,7 +42,7 @@
     "gradient",
     "unocss-preset-chroma"
   ],
-  "author": "Saya",
+  "author": "Jacob",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/JacobZyy/unocss-preset-chroma-forked/issues"
