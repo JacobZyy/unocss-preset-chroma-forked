@@ -1,19 +1,19 @@
 {
   "name": "unocss-preset-chroma-forked",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "chroma-js gradient for UnoCSS, a replacement of unocss-perset-chroma which is unavaliable",
   "engines": {
     "node": ">=14.18"
   },
   "type": "module",
-  "types": "./dist/index.d.ts",
+  "types": "./dist/src/index.d.ts",
   "exports": "./dist/index.js",
   "files": [
     "dist"
   ],
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build && tsc",
     "build-demo": "vite build --mode demo",
     "test": "vitest",
     "test:update": "vitest -u",
